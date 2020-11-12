@@ -23,15 +23,16 @@ public class Question4 {
 
 	public static void main(String[] args) {
 		
-		int num1 = 10;
-		int num2 = 20;
+		int n1 = 10;
+		int n2 = 20;
 		
-		num1 = 20;
-		num2 = 10;
-		
-		System.out.println(num1);
-		System.out.println(num2);
-
+		int a;
+		a = n1;
+		n1 = n2;
+		n2 = a;
+				
+		System.out.println("n1=" + n1);
+		System.out.println("n2=" + n2);
 	}
 
 }
